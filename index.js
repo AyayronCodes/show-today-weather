@@ -21,7 +21,7 @@ async function start() {
   } catch {
     // catch error
     alert(
-      "hmm, either...\n1) you entered your city incorrectly\n2) we don't have access to your city's weather yet\nPlease try searching again."
+      "hmm, either...\n1) you entered your city incorrectly, or\n2) we don't have access to your city's weather yet\nPlease try searching again."
     );
   }
 }
