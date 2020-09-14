@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="white-bg">
+      <div class="container">
+        <h1>Weather Today</h1>
+        <p>Please enter your city below...</p>
+        <input id="city-input" type="text" name="city" placeholder="Ex) London"></input>
+        <button id="submit-btn"><i class="fas fa-check-square fa-3x"></i></button>
+      </div>
+      <div class="result hidden">
+        <img id="weather-img" src="" alt="weather image">
+        <p id="weather-par">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, accusantium!</p>
+      </div>
+    </div>
+
+    <!-- font awesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog==" crossorigin="anonymous"></script>
+    <!-- gsap & scroll trigger cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- local -->
+    <script type="module" src="Data.js"></script>
+    <script type="module" src="view.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

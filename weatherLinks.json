@@ -1,0 +1,12 @@
+{
+  "snow": "https://www.metaweather.com/static/img/weather/sn.svg",
+  "sleet": "https://www.metaweather.com/static/img/weather/sl.svg",
+  "hail": "https://www.metaweather.com/static/img/weather/h.svg",
+  "thunderstorm": "https://www.metaweather.com/static/img/weather/t.svg",
+  "heavy rain": "https://www.metaweather.com/static/img/weather/hr.svg",
+  "light rain": "https://www.metaweather.com/static/img/weather/lr.svg",
+  "showers": "https://www.metaweather.com/static/img/weather/s.svg",
+  "heavy cloud": "https://www.metaweather.com/static/img/weather/hc.svg",
+  "light cloud": "https://www.metaweather.com/static/img/weather/lc.svg",
+  "clear": "https://www.metaweather.com/static/img/weather/c.svg"
+}
